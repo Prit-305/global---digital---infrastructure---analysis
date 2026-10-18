@@ -1,6 +1,7 @@
 # global---digital---infrastructure---analysis
-Cross-country data analysis &amp; composite indicator modelling on global digital connectivity &amp; Infrastructure using World Bank WDI data
- Overview 
-The composite indicator provides a comparative measure of digital connectivity and enabling infrastructure across 180 countries. It combines four indicators—access to electricity, fixed broadband subscriptions, individuals using the Internet, and mobile cellular subscriptions. The analysis examines cross-country patterns and shows how different dimensions contribute to overall composite performance. 
-Methodology 
-The four indicators are converted to a common 0–1 scale using min–max normalization. Each indicator receives an equal weight of 0.25, and the weighted values are aggregated to obtain the composite score. Countries are ranked in descending order of the composite score. The approach facilitates comparison across indicators measured in different units. 
+Overview:The composite indicator delivers a comparative measure of digital connectivity and enabling infrastructure across 180 countries by combining electricity access, fixed broadband, internet use, and mobile subscriptions. It examines cross-country patterns to show how these four dimensions contribute to overall performance.
+Methodology: The four indicators are converted to a 0 to 1 scale using min-max normalization, assigned an equal weight of 0.25, and aggregated into a composite score. Countries are then ranked in descending order to facilitate straightforward comparison across different measurement units.
+Strong Foundation in Basic Infrastructure:** India scores exceptionally high in **Access to Electricity** (0.999), indicating a very high relative position within the global observed range for basic electrification.
+ * **Constraint in Fixed Broadband:** **Fixed broadband subscriptions** represent India's lowest normalized component (0.057), pointing to a clear relative fixed-connectivity bottleneck compared to mobile or other dimensions.
+ * **Progress in Internet Adoption:** **Individuals using the Internet** stands at a moderate normalized score of 0.616, reflecting substantial but still incomplete internet adoption across the population.
+ * **Nuance in Mobile Subscriptions:** **Mobile cellular subscriptions** show a lower normalized position (0.107), though this metric requires contextual interpretation given that a single individual can hold multiple subscriptions or numbers.
